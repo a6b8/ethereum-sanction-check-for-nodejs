@@ -23,7 +23,6 @@ const tests = [
     '0x0000000000000000000000000000000000000000'
 ]
 
-config = prepareConfig( { config } )
 main( { config, tests } )
     .then( a => {
         if( s.checks[ 0 ]['chainalysis']['tradable'] ) {
