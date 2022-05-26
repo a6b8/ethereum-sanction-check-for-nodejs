@@ -112,6 +112,8 @@ npm i ethereum-sanction-check
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/options.svg" height="45px" alt="Options" name="Options">
 </a>
 
+**constructor()**
+
 ```javascript
 const SanctionCheck = require( 'ethereum-sanction-check' )
 
@@ -123,14 +125,26 @@ const check = new SanctionCheck( {
 } )
 ```
 
-
-**Constructor**
 | **Name** | **Type** | **Required** | **Default** | **Description** |
 |------:|:------|:------|:------|:------|
 | providerUrl | ```String```| No | ```null```| Is only used for ENS Domainnames: [LINK](https://ens.domains) |
 | chainalysisApiKey | ```String``` | Yes | ```null```| You can find more Information here: [LINK](https://public.chainalysis.com/docs/index.html#create-an-api-key) |
 | sleep | ```String```| No | ```0``` | Delay between queries in milliseconds |
 | provider | ```Etherjs Provider Object```| No | ```null``` | By default it will created for you. You can also pass the object y yourself: [LINK](https://docs.ethers.io/v5/api/providers/jsonrpc-provider/) |
+
+
+**.start( { tests: [] } )**
+
+| **Name** | **Type** | **Required** | **Default** | **Description** |
+|------:|:------|:------|:------|:------|
+| tests | ```String``` or ```Array``` | Yes | | Insert your addresses here as Array or a single string |
+
+
+**.print()**  
+Console log all results.
+
+**.checks**  
+Return results as array
 
 
 <br>
