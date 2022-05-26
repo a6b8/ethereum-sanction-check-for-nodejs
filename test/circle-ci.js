@@ -24,7 +24,7 @@ const tests = [
 ]
 
 main( { config, tests } )
-    .then( a => {
+    .then( s => {
         if( s.checks[ 0 ]['chainalysis']['tradable'] ) {
             process.exit( 0 )
         } else {
