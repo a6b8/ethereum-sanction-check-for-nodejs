@@ -16,8 +16,8 @@ async function main( { tests, config } ) {
 
 
 let config = {}
-config['provider'] = process.env.HTTP_NODE_PROVIDER
-config['chainalysis'] = process.env.CHAINALYSIS_API_KEY
+config['provider'] = process.env.ETHEREUM_MAINNET_INFURA_HTTP
+config['chainalysis'] = process.env.CHAINALYSIS_SANCTIONS_API_KEY
 
 const tests = [
     '0x0000000000000000000000000000000000000000'
