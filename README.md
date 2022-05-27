@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/ethereum-sanction-check-for-node.js.svg" height="45px" alt="EVM Sanction Check for Node.js" name="# EVM Sanction Check for Node.js">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/ethereum-read-functions-for-node.js.svg" height="45px" alt="EVM Sanction Check for Node.js" name="# EVM Sanction Check for Node.js">
 </a>
 
 <br>
