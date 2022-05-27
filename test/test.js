@@ -1,5 +1,5 @@
 // const SanctionCheck = require( '../src/index.js' )
-const SanctionCheck = require( './ethereum-sanction-check' )
+const SanctionCheck = require( 'ethereum-sanction-check' )
 const fs = require( 'fs' )
 
 
