@@ -1,8 +1,8 @@
 {
   "name": "ethereum-sanction-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "main.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
@@ -16,6 +16,6 @@
     "ethers": "^5.6.8"
   },
   "devDependencies": {
-    "axios": "^1.0.1"
+    "axios": "^1.0.2"
   }
 }
