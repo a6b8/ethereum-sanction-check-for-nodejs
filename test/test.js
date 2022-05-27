@@ -8,7 +8,6 @@ async function main( { tests, config } ) {
 }
 
 
-
 function prepareConfig( { config } ) {
     function loadEnv( { path } ) {
         const env = {}

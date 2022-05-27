@@ -14,6 +14,8 @@ This node module help to check if a account is sanction. Currently only `chainal
 
 **ENS Names compatible**
 ```javascript
+const SanctionCheck = require( 'ethereum-sanction-check' )
+
 async function main( { tests } ) {
     const check = new SanctionCheck( {
         'providerUrl': process.env.HTTP_NODE_PROVIDER,
@@ -34,6 +36,8 @@ main( { 'tests': 'vitalik.eth' } )
 
 **LISTS with validation check**
 ```javascript
+const SanctionCheck = require( 'ethereum-sanction-check' )
+
 async function main( { tests } ) {
     const check = new SanctionCheck( {
         'providerUrl': process.env.HTTP_NODE_PROVIDER,
